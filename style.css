@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    
+    font-family: 'Noto Sans Mono', monospace
+
+    
+}
+.videoWrapper{
+    position: relative;
+  width: 100%;
+  display: flex;
+
+    
+    
+    
+}
+.videoWrapper.video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+
+}
+.vidtext{
+    position: absolute;
+    top: 50%;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    
+}
+.section{
+background-color: rgb(39, 39, 65);
+color: white;
+height: 50%;
+margin-top: -8px;
+}
+.section p{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 5%;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .box1{
+  
+  background-color:white;
+  width: 50%; 
+  padding: 5%;
+ background-color:rgba(255, 255, 255, 0.952);
+ 
+ 
+
+ 
+
+}
+  .box {
+    
+    width: 100%;
+    padding: 20px;
+    height: 10px;
+    left: 10%; 
+      margin-bottom: 5%;
+   
+  
+    
+
+    }
+    .Tech:hover{
+      color: lightskyblue;
+      
+    }
+  
+
