@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     width: 100%;
+  
     
     font-family: 'Noto Sans Mono', monospace
 
@@ -9,19 +10,19 @@
 }
 .videoWrapper{
     position: relative;
-  width: 100%;
-  display: flex;
+  object-fit: cover;
+  
 
     
     
     
 }
 .videoWrapper.video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-
+    width: 100vh;
+    height: 100vh;
+   padding-top: 50px;
+    position: relative;
+    
 }
 .vidtext{
     position: absolute;
@@ -29,6 +30,7 @@
     color: white;
     text-align: center;
     font-size: 100px;
+    min-height: 370px;
     
 }
 .section{
@@ -36,6 +38,7 @@ background-color: rgb(39, 39, 65);
 color: white;
 height: 50%;
 margin-top: -8px;
+
 }
 .section p{
     padding-left: 20%;
@@ -52,6 +55,10 @@ margin-top: -8px;
   width: 50%; 
   padding: 5%;
  background-color:rgba(255, 255, 255, 0.952);
+ display: block;
+ 
+
+
  
  
 
@@ -64,7 +71,8 @@ margin-top: -8px;
     padding: 20px;
     height: 10px;
     left: 10%; 
-      margin-bottom: 5%;
+  
+  
    
   
     
