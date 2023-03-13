@@ -19,18 +19,19 @@
 }
 .videoWrapper.video{
     width: 100vh;
-    height: 100vh;
    padding-top: 50px;
     position: relative;
+    background-color: blue;
     
 }
-.vidtext{
+.videotext{
     position: absolute;
     top: 50%;
     color: white;
     text-align: center;
-    font-size: 100px;
-    min-height: 370px;
+    font-size: 200px;
+    font-weight: bold;
+    
     
 }
 .section{
@@ -58,25 +59,16 @@ margin-top: -8px;
  display: block;
  
 
-
  
- 
-
- 
-
 }
   .box {
     
     width: 100%;
     padding: 20px;
     height: 10px;
-    left: 10%; 
-  
-  
-   
-  
     
-
+ 
+    
     }
     .Tech:hover{
       color: lightskyblue;
